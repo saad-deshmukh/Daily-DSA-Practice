@@ -44,8 +44,10 @@ int main (){
                              {0,0,0,0},
                              {0,0,0,0},
                              {0,0,0,0},
-                             {0,0,0,0}
+                             {0,0,0,1}
                              };
 
     cout << rowwithmax1s(arr,n,m);
 }
+
+// output for the sbve code is = 4 
