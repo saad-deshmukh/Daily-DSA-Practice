@@ -29,7 +29,9 @@ string isPalindrome(string S)
 // Driver Code
 int main()
 {
-	string S = "ABCDCBA";
+	string S ;
+	cout << " enter the string ";
+	cin >> S;
 	cout << isPalindrome(S);
 
 	return 0;
