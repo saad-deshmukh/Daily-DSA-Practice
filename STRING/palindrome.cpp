@@ -30,7 +30,7 @@ string isPalindrome(string S)
 int main()
 {
 	string S ;
-	cout << " enter the string ";
+	cout << " enter the string: ";
 	cin >> S;
 	cout << isPalindrome(S);
 
