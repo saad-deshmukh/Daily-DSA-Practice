@@ -17,7 +17,7 @@ int findEquilibrium(int arr[], int n)
     for (int i = 0; i < n; i++)
     {
 
-        total += arr[i];  // counting the total sum of the all aray elements 
+        total += arr[i];  // counting the total sum of the all array elements 
     }
 
     for (int i = 0; i < n; i++)
@@ -30,7 +30,7 @@ int findEquilibrium(int arr[], int n)
             return i;
         }
 
-        total -= arr[i];  // substracting index if above conditions is not met 
+        total -= arr[i];  // substracting index if above conditions are not met 
     }
 
     return -1;   // no equilibrium index 
