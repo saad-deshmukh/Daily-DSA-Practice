@@ -46,7 +46,7 @@ string largestoddnumber(string num){
 
 int main (){
 
-    string num = "12324545" ; 
+    string num = "3" ; 
     
     string ans = largestoddnumber(num);
     
