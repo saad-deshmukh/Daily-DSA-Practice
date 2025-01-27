@@ -61,7 +61,7 @@ string removeOuterParentheses(string s) {
             }
         }
     }
-    // Return the final string with outermost parentheses removed
+    // Return the final string with removed outermost parentheses
     return result;
 }
 
