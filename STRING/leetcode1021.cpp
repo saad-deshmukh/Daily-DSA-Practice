@@ -68,6 +68,6 @@ string removeOuterParentheses(string s) {
 int main() {
     string s = "(()())(())"; // Example input string
     string result = removeOuterParentheses(s); // Call the function
-    cout << "Output after removing outer parentheses: " << result << endl; // Print the result
+    cout << "Output after removing outer parentheses: " << result << endl; // Print the result to the screen
     return 0;
 }
