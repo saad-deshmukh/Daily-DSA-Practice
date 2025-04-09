@@ -18,16 +18,16 @@ int ans = -1;
 
 for(int i=0;i<n;i++){
 
-    int cnt=0;
+    int count=0;
     for (int j=0;j<m;j++){
 
         if(arr[i][j]==1){
-            cnt++;
+            count++;
         }
     }
-    if (cnt!=0 && cnt>max1s){
+    if (count!=0 && count>max1s){
         ans= i;
-        max1s=cnt;
+        max1s=count;
     }
 
 
@@ -43,11 +43,11 @@ int main (){
     vector<vector<int>> arr={{0,0,0,0},
                              {0,0,0,0},
                              {0,0,0,0},
-                             {0,0,0,0},
-                             {0,0,0,1}
+                             {1,1,1,1},
+                             {1,0,1,1}
                              };
 
     cout << rowwithmax1s(arr,n,m);
 }
 
-// output for the sbve code is = 4 
+// output for the above code is = 4 
