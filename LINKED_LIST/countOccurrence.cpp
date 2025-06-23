@@ -70,7 +70,7 @@ int main() {
 
     // Count occurrences of '1'
     int target = 1;
-    cout << "Number of occurrences of " << target << ": " << ll.countOccurrences(target) << endl;
+    cout << "Number of occurrences of " << target << " is: " << ll.countOccurrences(target) << endl;
 
     return 0;
 }
