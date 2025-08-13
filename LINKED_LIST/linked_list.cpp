@@ -77,22 +77,6 @@ public:
     }
   }
 
-  void printList()
-  {
-
-    if (head == NULL)
-    {
-      cout << "no list is present\n";
-    }
-    Node *temp = head;
-    while (temp != NULL)
-    {
-      cout << temp->data << "-> ";
-      temp = temp->next;
-    }
-    cout << "NULL" << endl;
-  }
-
   void pop_back()
   {
     if (head == NULL)
@@ -155,7 +139,23 @@ public:
     }
     return -1;
   }
+   void printList()
+  {
+
+    if (head == NULL)
+    {
+      cout << "no list is present\n";
+    }
+    Node *temp = head;
+    while (temp != NULL)
+    {
+      cout << temp->data << "-> ";
+      temp = temp->next;
+    }
+    cout << "NULL" << endl;
+  }
 };
+
 
 int main()
 {
