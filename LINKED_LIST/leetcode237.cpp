@@ -36,12 +36,21 @@ struct Listnode {
         next = NULL;
     }
 };
+ 
 
+
+// void deleteNode(Listnode* node) {   
+//     Listnode* temp = node->next;
+//     node->data = temp->data;
+//     node->next = temp->next;
+//     delete temp; // free the skipped node's memory
+// }
+
+
+// LEETCODE STYLE 
 void deleteNode(Listnode* node) {
-    Listnode* temp = node->next;
-    node->data = temp->data;
-    node->next = temp->next;
-    delete temp; // free the skipped node's memory
+    node->data = node->next->data;
+    node->next = node->next->next;
 }
 
 void printList(Listnode* head) {
