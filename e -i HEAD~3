@@ -1,0 +1,143 @@
+[33m5751654[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m Merge branch 'main' of https://github.com/saad-deshmukh/Daily-DSA-Practice
+[33meadce64[m longest subarray of 1's after deleting one element
+[33m500cc95[m Merge branch 'main' of https://github.com/saad-deshmukh/Daily-DSA-Practice
+[33mac1fbbb[m longest subarray of 1's
+[33m003cb91[m Create README.md
+[33m4bb39bc[m Allocate minimum Pages (GFG)
+[33m7b03e4f[m area of the reactangle in thr grid which covers total 1's  in the grid
+[33mdf0b3fd[m merge two sorted linked list
+[33m9f78182[m more optimized approach using binary search
+[33m261b798[m middle of the linked list using  fast and slow pointers
+[33m3d26d1b[m number of subarrays filled with zeroes only
+[33md8ce25a[m three sum problem
+[33mdfe45c5[m New 21 Game
+[33m588802b[m return maximum numberr by changing any one integer from it
+[33m5aac65e[m largest number from the list of non negative integer
+[33m786b12a[m power of 4
+[33m5a10121[m modifications for leetcode style answer
+[33mbe40177[m delete the node in linked list
+[33me2a138a[m reverse a linked list
+[33m86099a7[m the largest good integer problem
+[33md6e1836[m linked list basic implementation
+[33m46d264f[m example of greedy algorithm
+[33mbd25aaf[m minimum cost of buying candies with discount
+[33m8226191[m linked list revisited
+[33m7dd6614[m reordered power of 2
+[33m7c58036[m KMP string Matching Algorithm
+[33m136d5eb[m Minimum Time Difference
+[33m6cf400a[m another way to solve it
+[33m04c5a5e[m valid palindrome 2
+[33m7454c3f[m leetcode problems
+[33mf62ab24[m longest substring with non repeating  characters
+[33m51001df[m  sum of all the subarray of given array
+[33me69096f[m quick sort algorithm. TC in Best case O(N log N ) and worst Case (already sorted array) is O(N^2)
+[33mc48d47f[m first missing positive number
+[33m57011ad[m Merge Sort
+[33mc701104[m selection sort
+[33m48e4873[m simple bubble sort O(N^2)
+[33m2c3a205[m queue using array
+[33me2e61d1[m implemented stack using array
+[33m4e915b8[m Lexicographically Largest String After Deleting K Characters
+[33me0a269c[m count occurrences of the data in linked list
+[33md817a99[m inserting the node at the begining of the linked list
+[33mcd5755b[m insertion sort
+[33m7841a39[m two sum
+[33m16ae51f[m distinct element from the array
+[33me3457cf[m maximum consecutive count of the 1's  in binary array
+[33mdd38efc[m formatting
+[33me395b4d[m missing number from given range
+[33me0dd5b4[m finding all the elements which are present in the both arrays
+[33m460e1fb[m move all zero's to end
+[33m61b9c4b[m Add .gitignore to exclude .exe files
+[33m9da0170[m string related problems
+[33mecd4854[m find longest palindrome size
+[33mb7c86fa[m problems solved
+[33m15fcc7b[m move zeroes to end
+[33m54b4fd4[m left rotate array
+[33m186fe36[m fibonacci number using recursion
+[33mc18581f[m checking whether given string is palindrome or not
+[33ma5984eb[m reversing the array using recursion
+[33mef40c81[m  Sum upto N using recursion
+[33ma0a22b6[m pyramid pattern
+[33ma183c2c[m check whether given number is  prime or not
+[33m7737b13[m checking whether the number is self dividing or not
+[33me0bc579[m check whether given number is Armstrong or not
+[33m039d4be[m checking whether the number is palindrome or not
+[33m26c40a8[m reversing the number
+[33m794b739[m Added another appraoch for this code
+[33md3a4c3a[m bug resolved
+[33mcf59c88[m number pattern
+[33m83ce665[m triangular pattern
+[33m36cedad[m printing basic rectangular pattern
+[33maff9811[m simple fixes
+[33m212b0b0[m decimal to negative base 2 i.e.base(-2)
+[33mef1bb03[m binary to decimal conversion
+[33me215cf8[m decimal to binary conversion
+[33m1525ec1[m another approach
+[33mce8f15f[m two sum ||
+[33m4a5585a[m finding second smallest and second largest element
+[33m90178e6[m Remove the space from the string
+[33m2c72ac5[m dutch national flag algorithm
+[33m2aa30df[m count and print the vowels and consonants from the alphanumeric string
+[33m4e2599d[m count the sum of individual digits in alphnumeric string
+[33ma98746a[m max number of k-sum pairs
+[33ma2d057c[m search insert position
+[33m57e67dd[m valid anagrams
+[33md3fed52[m error correction
+[33m9ea236f[m Merge branch 'main' of https://github.com/saad-deshmukh/coding-practice
+[33meaf6b4f[m minor changes
+[33m53077b3[m Delete SEARHING & SORTING/leetcode1021.cpp
+[33m1323c28[m Delete ARRAY/leetcode1021.cpp
+[33m54097c3[m remove outermost parentheses
+[33m6f97762[m remove outermost parentheses
+[33m69fc58d[m remove outermost parentheses
+[33m8610d9b[m small changes
+[33mdc0017f[m "largest odd number from given string of number "
+[33ma38f7e8[m error correction
+[33mec00f45[m equilibrium index
+[33m63da07a[m maximum subarray sum equals k (prefix sum approach)
+[33m6f99913[m some formatting
+[33mb591305[m sum of three consecutive number equal to given number
+[33mbb14297[m binary search
+[33m74161f6[m union of array with duplicates
+[33m211eaad[m Product Except  Self (prefix and suffix multiplication)
+[33mee2df9d[m detect cycle
+[33mc4ebe33[m intersection of two arrays
+[33mce10c50[m cycle in linked list
+[33m41b0c67[m container with most water
+[33mae8a1ac[m linear Search
+[33m2492959[m rain water trapping t.c. O(n)
+[33maa47a51[m roman to integer converter function
+[33m670de29[m search in the 2d matrix
+[33m0754b6b[m clockwise rotation of matrix
+[33m9f48fa6[m citations
+[33mc058fd4[m merge in sorted array
+[33mfa108ab[m min jump count to  reach end
+[33m7ef2458[m is subsequence (basic two pointer approach)
+[33m7058bdc[m valid palindrome
+[33m5ae1aea[m jump game
+[33me4061b6[m best time to buy and sell stock 1
+[33me43ef25[m majority element 1 leetcode
+[33m4846207[m linear search
+[33mc24290d[m linear search
+[33m1ad1c7b[m factorial with recursion
+[33mf7ceb27[m factorial with recursion
+[33m3d827e9[m to check how many time a element appears in linked list
+[33mfba5798[m alternate sort
+[33m81cb5c2[m swapping with different conditions
+[33m2188547[m linked_list
+[33md5b48f3[m kadane's algorithm
+[33m37e94e5[m array problem
+[33m8b1f18b[m max area of rectangle
+[33mbef12d4[m rotating right
+[33ma1ae83e[m reversed string operation
+[33m474c548[m checking palindrom
+[33m07c30d5[m Merge branch 'main' of https://github.com/saad-deshmukh/coding-practice
+[33m5ccdbd1[m string
+[33m1e1804e[m string
+[33m188f12d[m Update 2D_ARRAY.cpp
+[33mf0acf82[m new
+[33m26a3732[m nqt
+[33mc043d60[m day 03
+[33m08dd8db[m day 02
+[33ma7dc595[m nqt practice
