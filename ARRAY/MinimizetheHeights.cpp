@@ -33,7 +33,7 @@ public:
 
         for (int i = 0; i < n - 1; i++)
         {
-            int minHeight = min(smallest, arr[i - 1] - k);
+            int minHeight = min(smallest, arr[i + 1] - k);
             int maxHeight = max(largest, arr[i] + k);
 
             if (minHeight < 0)
