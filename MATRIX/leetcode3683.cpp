@@ -33,7 +33,7 @@ class Solution {
 public:
     int earliestTime(vector<vector<int>>& tasks) {
         int row = tasks.size();
-        int col = tasks[0].size();
+        int col = tasks[0].size(); // anyway column size  is going to be same and that is two 
         int ans =  INT_MAX;
         for(int i=0;i<row;i++){
                 int sum= 0 ;
