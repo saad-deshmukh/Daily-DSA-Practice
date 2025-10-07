@@ -13,33 +13,37 @@ using namespace std ;
 
 class Solution {
 public:
-    string leftShift(string s) {
+    // string leftShift(string s) {
         
-        char ch = s[0];
-        s.erase(0, 1);
-        s.push_back(ch);
-        return s;
-    }
+    //     char ch = s[0];
+    //     s.erase(0, 1);
+    //     s.push_back(ch);
+    //     return s;
+    // }
 
-    string rightShift(string s) {
-        // Move last character to the beginning
-        char ch = s[s.size() - 1];
-        s.pop_back();
-        s.insert(s.begin(), ch);
-        return s;
-    }
+    // string rightShift(string s) {
+    //     // Move last character to the beginning
+    //     char ch = s[s.size() - 1];
+    //     s.pop_back();
+    //     s.insert(s.begin(), ch);
+    //     return s;
+    // }
 
-    bool rotateString(string s, string goal) {
-        if (s.size() != goal.size()) return false;
-        int n = s.length();
-        string temp = s;
+     bool rotateString(string s, string goal) {
+    //     if (s.size() != goal.size()) return false;
+    //     int n = s.length();
+    //     string temp = s;
 
-        while (n--) {
-            temp = leftShift(temp);
-            if (temp == goal) return true;
-        }
-        return false;
-    }
+    //     while (n--) {
+    //         temp = leftShift(temp);
+    //         if (temp == goal) return true;
+    //     }
+    //     return false;
+
+     // simple one liner
+    return s.size() == goal.size() && (s + s).find(goal) != string::npos;
+
+     }
 };
 
 int main() {
