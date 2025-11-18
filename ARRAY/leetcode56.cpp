@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /*Given an array of intervals where intervals[i] = [starti, endi], 
 merge all overlapping intervals, and return an array of the non-overlapping intervals that cover all the intervals in the input.
 Example 1:
@@ -14,10 +13,6 @@ Input: intervals = [[4,7],[1,4]]
 Output: [[1,7]]
 Explanation: Intervals [1,4] and [4,7] are considered overlapping.
  */
-=======
-
-
->>>>>>> a139c385ff71bedce290a70a4bc52ccef55330ef
 
 #include<bits/stdc++.h>
 using namespace std ;
@@ -29,7 +24,6 @@ class Solution{
          // brute force approach 
          //  time complexity = near about  O(N)^2; 
          // space complexity = O(N)
-<<<<<<< HEAD
         int n = nums.size();
         vector<vector<int>> ans ;
         sort(nums.begin(),nums.end());
@@ -60,13 +54,10 @@ class Solution{
         // // time complexity = near about  O(N log N)
         // // space complexity = O(N)
         
-=======
->>>>>>> a139c385ff71bedce290a70a4bc52ccef55330ef
         // int n = nums.size();
         // vector<vector<int>> ans ;
         // sort(nums.begin(),nums.end());
         // for(int i=0;i<n;i++){
-<<<<<<< HEAD
            
         //     if(ans.empty() || nums[i][0] > ans.back()[1]){
         //         ans.push_back(nums[i]);
@@ -76,45 +67,6 @@ class Solution{
         //     }
         // }
         // return ans ; 
-=======
-               
-        //     int start=nums[i][0];
-        //     int end = nums[i][1];
-
-        //     if(!ans.empty() && end <= ans.back()[1]){
-        //         continue;
-        //     }
-
-        //     for(int j=i+1;j<n;j++){
-        //           if(nums[j][0] <= end){
-        //             end = max(end,nums[j][1]);
-        //           } 
-        //           else{
-        //             break;
-        //           }
-        //     }
-        //     ans.push_back({start,end});
-        // }
-        // return ans ; 
-
-        // Optimal Approach 
-        // time complexity = near about  O(N log N)
-        // space complexity = O(N)
-        
-        int n = nums.size();
-        vector<vector<int>> ans ;
-        sort(nums.begin(),nums.end());
-        for(int i=0;i<n;i++){
-           
-            if(ans.empty() || nums[i][0] > ans.back()[1]){
-                ans.push_back(nums[i]);
-            }
-            else{
-                ans.back()[1] = max(ans.back()[1],nums[i][1]);
-            }
-        }
-        return ans ; 
->>>>>>> a139c385ff71bedce290a70a4bc52ccef55330ef
      }
     
 };
