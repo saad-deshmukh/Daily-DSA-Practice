@@ -17,10 +17,11 @@ Explanation:
 At index i = 0, the value 4 is dominant over the subarray [1, 2].
 At index i = 1, the value 1 is not dominant.
 Index i = 2 is not dominant as there are no elements to its right. Thus, the answer is 1.
- 
+​​​
 Constraints:
 1 <= nums.length <= 100
-1 <= nums[i] <= 100​​​​​​​'''
+1 <= nums[i] <= 100​'''
+
 from typing import List
 class Solution:
     def dominantIndices(self, nums: List[int]) -> int:
